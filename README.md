@@ -25,6 +25,8 @@ So, to convert a sequence of words (tokens) into an image, we:
 This image is then passed on to a CNN for training/inferenece.
 Specifically, for this experiment, 1024 tokens with an embedding size of 768 are converted to an image of size 3,512,512.
 
+I personally refered to this method as PACING - **P**atched b**A**sed **C**onvolut**I**o**N**al **G**enerator
+
 ## The Experiment
 
 Please note, this experiment was designed acknowledging computing constants and should be scaled up for a 
@@ -45,11 +47,62 @@ Both models had their crossentropy loss logged on a validation set of 100 sample
 
 ## The Results
 
+### Plots of loss during training
+![Test Loss](https://github.com/Aveygo/WordsAreWorth16x16Pixels/raw/main/testset.png)
+![Train Loss](https://github.com/Aveygo/WordsAreWorth16x16Pixels/raw/main/trainset.png)
 
+### Average of final 50 test-set loss values
+
+*Lower is better*
+
+PACING - 6.916 (-13.7%)
+
+GPT2 - 8.015 (+15.9%)
+
+### Average samples/second, GeForce RTX 3070 8GB
+
+*Higher is better*
+
+PACING - 2.275 (+51.8%)
+
+GPT2 - 1.499 (-34.1%)
+
+### Memory usage of model
+
+PACING - 0.5GB
+
+GPT2 - 0.55GB
+
+### Sample inference
+*top_k = 50, seed=43*
+
+PACING
+```
+ what rich fair nothing thee d nothing love's
+
+With did fair thy heart even of best with love thee form fromty byWhen I his beauty with me mine a. thy self oWhen thou: of,yTo then beautyed thee thou then behold.ilsted one be time: night's the you. ill love best have
+
+ love me is this
+
+ see and with on then I on'sTo me nothing live this mine wealth not on live by behold I form thee of mine did behold
+```
+
+GPT2
+```
+ health corrupt now other night look' deeds my that dece yous age theySh glad eyesost
+ face divine dull so grace hours my tender keep'one grace lofty eyes, keep health they ares head; one now eyesred one so now me that which make her, eyes mine from hours present be express none see health I express'a dece presents those' tender keep they head none glad health look' dull sa not themselves dulls none dece now night other themselves keep they'presentSh
+```
 
 ## Conclusion
 
+Given a lower final test-set loss while being faster and more memory efficent, with an extremely similar parameter count, CNN's outperformed GPT-2 in this
+token prediction task.
+
+I hope to see more experimentation in this, with larger models, more data, and for longer periods of time, as I personally was not able to achieve the computational
+requirements for a more conclusive result. I believe it shows promise nonetheless.
+
 ## TLDR
 
-~Insert meme here~
+![TLDR meme](https://github.com/Aveygo/WordsAreWorth16x16Pixels/raw/main/tldr.png)
+
 
