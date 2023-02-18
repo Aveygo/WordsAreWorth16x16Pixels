@@ -1,6 +1,13 @@
-# A word is worth 16x16 pixels
+# Words Are Worth 16x16 Pixels
 
-An (admittedly amature) attempt to combine the strengths of CNNs for sequence prediction.
+ [![Aveygo - WordsAreWorth16x16Pixels](https://img.shields.io/static/v1?label=Aveygo&message=WordsAreWorth16x16Pixels&color=black&logo=github)](https://github.com/Aveygo/WordsAreWorth16x16Pixels "Go to GitHub repo")
+[![stars - WordsAreWorth16x16Pixels](https://img.shields.io/github/stars/Aveygo/WordsAreWorth16x16Pixels?style=social)](https://github.com/Aveygo/WordsAreWorth16x16Pixels)   [![License: MIT](https://img.shields.io/badge/License-MIT-black.svg)](https://opensource.org/licenses/MIT) [![Python 3.9.9](https://img.shields.io/badge/python-3.9.9-black.svg)](https://www.python.org/downloads/release/python-399/)
+
+An (admittedly amature) attempt to combine the strength of CNNs for sequence prediction though PACING - **P**atched b**A**sed **C**onvolut**I**o**N**al **G**enerator
+
+<p align="center">
+  <img src="https://github.com/Aveygo/WordsAreWorth16x16Pixels/raw/main/diagram.png" />
+</p>
 
 ## The Background
 
@@ -24,8 +31,6 @@ So, to convert a sequence of words (tokens) into an image, we:
 
 This image is then passed on to a CNN for training/inferenece.
 Specifically, for this experiment, 1024 tokens with an embedding size of 768 are converted to an image of size 3,512,512.
-
-I personally refered to this method as PACING - **P**atched b**A**sed **C**onvolut**I**o**N**al **G**enerator
 
 ## The Experiment
 
@@ -100,9 +105,3 @@ token prediction task.
 
 I hope to see more experimentation in this, with larger models, more data, and for longer periods of time, as I personally was not able to achieve the computational
 requirements for a more conclusive result. I believe it shows promise nonetheless.
-
-## TLDR
-
-![TLDR meme](https://github.com/Aveygo/WordsAreWorth16x16Pixels/raw/main/tldr.png)
-
-
