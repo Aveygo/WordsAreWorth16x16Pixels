@@ -6,7 +6,7 @@
 An (admittedly amature) attempt to combine the strength of CNNs for sequence prediction though PACING - **P**atched b**A**sed **C**onvolut**I**o**N**al **G**enerator
 
 <p align="center">
-  <img src="https://github.com/Aveygo/WordsAreWorth16x16Pixels/raw/main/diagram.png" />
+  <img src="https://github.com/Aveygo/WordsAreWorth16x16Pixels/raw/main/images/diagram.png" />
 </p>
 
 ## The Background
@@ -53,8 +53,8 @@ Both models had their crossentropy loss logged on a validation set of 100 sample
 ## The Results
 
 ### Plots of loss during training
-![Test Loss](https://github.com/Aveygo/WordsAreWorth16x16Pixels/raw/main/testset.png)
-![Train Loss](https://github.com/Aveygo/WordsAreWorth16x16Pixels/raw/main/trainset.png)
+![Test Loss](https://github.com/Aveygo/WordsAreWorth16x16Pixels/raw/main/images/testset.png)
+![Train Loss](https://github.com/Aveygo/WordsAreWorth16x16Pixels/raw/main/images/trainset.png)
 
 ### Average of final 50 test-set loss values
 
