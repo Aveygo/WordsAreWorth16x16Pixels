@@ -1,7 +1,7 @@
 # Words Are Worth 16x16 Pixels
 
  [![Aveygo - WordsAreWorth16x16Pixels](https://img.shields.io/static/v1?label=Aveygo&message=WordsAreWorth16x16Pixels&color=black&logo=github)](https://github.com/Aveygo/WordsAreWorth16x16Pixels "Go to GitHub repo")
-[![stars - WordsAreWorth16x16Pixels](https://img.shields.io/github/stars/Aveygo/WordsAreWorth16x16Pixels?style=social)](https://github.com/Aveygo/WordsAreWorth16x16Pixels)   [![License: MIT](https://img.shields.io/badge/License-MIT-black.svg)](https://opensource.org/licenses/MIT) [![Python 3.9.9](https://img.shields.io/badge/python-3.9.9-black.svg)](https://www.python.org/downloads/release/python-399/)
+[![stars - WordsAreWorth16x16Pixels](https://img.shields.io/github/stars/Aveygo/WordsAreWorth16x16Pixels?style=social)](https://github.com/Aveygo/WordsAreWorth16x16Pixels)   [![License: GPLv3](https://img.shields.io/badge/License-GPL-black.svg)](https://github.com/Aveygo/WordsAreWorth16x16Pixels/blob/main/license.txt) [![Python 3.9.9](https://img.shields.io/badge/python-3.9.9-black.svg)](https://www.python.org/downloads/release/python-399/)
 
 An (admittedly amature) attempt to combine the strength of CNNs for sequence prediction though PACING - **P**atched b**A**sed **C**onvolut**I**o**N**al **G**enerator
 
