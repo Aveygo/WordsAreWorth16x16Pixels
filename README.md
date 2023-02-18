@@ -105,3 +105,5 @@ token prediction task.
 
 I hope to see more experimentation in this, with larger models, more data, and for longer periods of time, as I personally was not able to achieve the computational
 requirements for a more conclusive result. I believe it shows promise nonetheless.
+
+Download the model [here](https://drive.google.com/file/d/1VBKZ8ND8CHyIZifhNtUllqK3mBu-JJHY/view?usp=sharing)
